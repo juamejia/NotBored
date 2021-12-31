@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/conditionFragment"
-        android:name="com.example.notbored.ConditionFragment"
+        android:name="com.example.notbored.ui.fragment.ConditionFragment"
         android:label="fragment_condition"
         tools:layout="@layout/fragment_condition" />
     <fragment
