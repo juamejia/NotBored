@@ -5,11 +5,12 @@
       <map>
         <entry key="app/src/main/res/drawable/cruz.xml" value="0.36875" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.3385416666666667" />
-        <entry key="app/src/main/res/layout/fragment_activities.xml" value="0.19635416666666666" />
+        <entry key="app/src/main/res/layout/fragment_activities.xml" value="0.375" />
         <entry key="app/src/main/res/layout/fragment_condition.xml" value="0.19635416666666666" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.35260416666666666" />
         <entry key="app/src/main/res/layout/fragment_random.xml" value="0.19635416666666666" />
         <entry key="app/src/main/res/layout/fragment_recreational.xml" value="0.19635416666666666" />
+        <entry key="app/src/main/res/layout/items_activities.xml" value="0.35260416666666666" />
       </map>
     </option>
   </component>
