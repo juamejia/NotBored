@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.activityViewModels
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -27,6 +28,7 @@ class ActivitiesFragment : Fragment() {
         // Inflate the layout for this fragment
         binding = FragmentActivitiesBinding.inflate(inflater, container, false)
 
+        // Toast.makeText(context, getBundle(), Toast.LENGTH_SHORT).show()
         activitiesViewModel.setLiveActivities()
 
         activitiesViewModel.liveListActivities.observe(viewLifecycleOwner, {
@@ -38,10 +40,13 @@ class ActivitiesFragment : Fragment() {
     fun initRecyclerView(listActivities: List<String>){
 
         val adapter = AdapterActivities(listActivities)
-        // set rv,  layout and adapter
+        // set recyclerView  (layout and adapter)
         binding.rvActivities.layoutManager = LinearLayoutManager(context)
         binding.rvActivities.adapter = adapter
+    }
 
+    fun getBundle(): String? {
+        return arguments?.get("participants").toString()
     }
 
 

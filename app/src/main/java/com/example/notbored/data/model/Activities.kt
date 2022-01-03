@@ -2,6 +2,6 @@ package com.example.notbored.data.model
 
 class Activities {
 
-    val listActivities = listOf<String>("education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork")
+    val listActivities = listOf<String>("Education", "Recreational", "Social", "Diy", "Charity", "Cooking", "Relaxation", "Music", "Busywork")
 
 }
