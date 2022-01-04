@@ -11,13 +11,14 @@ import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import com.example.notbored.R
 import com.example.notbored.databinding.FragmentHomeBinding
+import dagger.hilt.android.AndroidEntryPoint
 
 
 class HomeFragment : Fragment() {
 
 
     lateinit var binding: FragmentHomeBinding
-    val list = listOf<String>("1", "2", "3", "4", "5", "6", "7", "8", "9", "10")
+    val list = listOf<String>("1", "2", "3", "4", "5", "6", "7", "8")
     lateinit var temp: Any
 
     override fun onCreateView(

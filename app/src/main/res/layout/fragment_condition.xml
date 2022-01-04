@@ -15,7 +15,7 @@
             android:id="@+id/bt_cancel"
             android:layout_width="27dp"
             android:layout_height="27dp"
-            android:background="@drawable/cruz"
+            android:background="@drawable/cross"
             android:layout_margin="16dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
